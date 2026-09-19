@@ -16,12 +16,12 @@ age = st.number_input(
 
 glucose = st.number_input(
     "Enter Glucose Level",
-    min_value=0.0
+    min_value=50.0
 )
 
 bmi = st.number_input(
     "Enter BMI",
-    min_value=0.0
+    min_value=10.0
 )
 
 if st.button("Predict"):
